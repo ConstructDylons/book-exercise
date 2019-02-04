@@ -41,11 +41,26 @@ class Book
     
     public void printAuthor()
     {
-        System.out.printf(author);
+        System.out.printf("Author: " + author);
+        System.out.println();
     }
     
     public void printTitle()
     {
-        System.out.printf(title);
+        System.out.printf("Title: " + title);
+        System.out.println();
+    }
+    
+    public void printPages()
+    {
+        System.out.printf("Pages: " + pages);
+        System.out.println();
+    }
+    
+    public void printDetails()
+    {
+        printAuthor();
+        printTitle();
+        printPages();
     }
 }
