@@ -74,5 +74,15 @@ class Book
         printAuthor();
         printTitle();
         printPages();
+        System.out.printf("Reference Number: ");
+        if(refNumber.length() > 0)
+        {
+            System.out.printf(refNumber);
+        }
+        else
+        {
+            System.out.printf("ZZZ");
+        }
+        System.out.println();
     }
 }
